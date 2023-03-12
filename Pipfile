@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+tensorflow = "*"
+keras = "*"
+numpy = "*"
+jupyter = "*"
+fastapi = "*"
+uvicorn = "*"
+
+[dev-packages]
+pytest = "*"
+black = "*"
+isort = "*"
+pylint = "*"
+pre-commit = "*"
+
+[requires]
+python_version = "3.10"
+python_full_version = "3.10.10"
